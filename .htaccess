@@ -36,7 +36,7 @@ RewriteBase /
 
 RewriteEngine on
 RewriteCond %{HTTP:HTTPS} !=on [NC]
-RewriteRule ^(.*)$ https://industry-company.ru/$1 [R=301,L]
+RewriteRule ^(.*)$ https://frezerni.ru/$1 [R=301,L]
 SetEnvIf X-Forwarded-Proto https HTTPS=on
 
 #RewriteEngine on
@@ -49,6 +49,6 @@ RewriteRule .* - [F,L]
 
 RewriteRule ^sitemap.xml[/]?$ sitemap.php
 
-RewriteRule ^mss0fovnwli9zqf1xpbua[/]?$ https://industry-company.ru/mss0fovnwli9zqf1xpbua/index.php
+RewriteRule ^mss0fovnwli9zqf1xpbua[/]?$ https://frezerni.ru/mss0fovnwli9zqf1xpbua/index.php
 
 RewriteRule ^([-_a-zA-Z0-9/]+)[/]?$ index.php?cpu=$1

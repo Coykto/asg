@@ -4,9 +4,9 @@
 	date_default_timezone_set('europe/berlin');
 	
 	$db_host = "localhost";
-	$db_username = "freshdecor_icnew";
-	$db_password = "n3l0b7yzOE";
-	$db_dbname = "freshdecor_icnew";
+	$db_username = "freshdecor_eston";
+	$db_password = "92p*R39DUQCJCXNP";
+	$db_dbname = "freshdecor_eston";
 
 	$mysqli = new mysqli($db_host, $db_username, $db_password, $db_dbname);
 	if ($mysqli->connect_errno) {
