@@ -1,0 +1,60 @@
+html, body, form {margin:0px; padding:0px;}
+td {padding: 0px;}
+table 	{border-collapse: collapse;}
+
+body			{font-size: 8pt; color: #303030; font-family: Verdana;}
+A:link			{font-size: 8pt; color: #2d96ef; font-family: Verdana; text-decoration: underline;}
+A:visited		{font-size: 8pt; color: #2d96ef; font-family: Verdana; text-decoration: underline;}
+A:hover			{font-size: 8pt; color: #2d96ef; font-family: Verdana; text-decoration: none;}
+A:active		{font-size: 8pt; color: #2d96ef; font-family: Verdana; text-decoration: underline;}
+td				{font-size: 8pt; color: #303030; font-family: Verdana;}
+
+
+:link.top_link		{font-size: 8pt; color: #747474; font-family: Verdana; text-decoration: underline;}
+:visited.top_link	{font-size: 8pt; color: #747474; font-family: Verdana; text-decoration: underline;}
+:hover.top_link		{font-size: 8pt; color: #747474; font-family: Verdana; text-decoration: none;}
+:active.top_link	{font-size: 8pt; color: #747474; font-family: Verdana; text-decoration: underline;}
+
+:link.open_folder		{font-size: 8pt; color: #303030; font-family: Verdana; text-decoration: underline;}
+:visited.open_folder	{font-size: 8pt; color: #303030; font-family: Verdana; text-decoration: underline;}
+:hover.open_folder		{font-size: 8pt; color: #303030; font-family: Verdana; text-decoration: none;}
+:active.open_folder		{font-size: 8pt; color: #303030; font-family: Verdana; text-decoration: underline;}
+
+:link.small_link		{font-size: 7pt; color: #747474; font-family: Verdana; text-decoration: underline;}
+:visited.small_link		{font-size: 7pt; color: #747474; font-family: Verdana; text-decoration: underline;}
+:hover.small_link		{font-size: 7pt; color: #747474; font-family: Verdana; text-decoration: none;}
+:active.small_link		{font-size: 7pt; color: #747474; font-family: Verdana; text-decoration: underline;}
+
+
+table.big_table 	{width: 100%; height: 100%; border-collapse: collapse;}
+.table_1			{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/bg.gif'); background-repeat: no-repeat;}
+.td_1				{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/hr.gif'); background-position: center bottom; background-repeat: no-repeat; text-align: center; font-size: 18pt; color: #303030; font-family: Trebuchet MS;}
+.td_2				{vertical-align:middle; text-align: center;}
+.td_3				{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/hr.gif'); background-position: center top; background-repeat: no-repeat; text-align: center;}
+.td_4				{font-size: 12pt; color: #303030; font-family: Trebuchet MS;}
+.td_5				{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/bg_1.gif'); background-repeat: repeat-x; vertical-align:top;}
+.td_6				{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/ico_1.gif'); background-repeat: no-repeat; padding-left: 15px;}
+.td_7				{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/ico_2.gif'); background-repeat: no-repeat; background-position: right top; padding-right: 15px;}
+.td_8				{padding-top:35px; padding-left:30px; vertical-align:top;}
+.td_9				{padding-top:35px; padding-left:10px; padding-right:30px; vertical-align:top;}
+.td_10				{font-size: 10pt; color: #303030; font-family: Trebuchet MS; padding-right: 10px; padding-top: 12px; vertical-align:top; padding-bottom: 15px;}
+.td_11				{font-size: 8pt; color: #808080; font-family: Trebuchet MS; padding-left: 10px; padding-bottom: 15px; padding-top: 12px; vertical-align:top;}
+.td_12				{font-size: 13px; color: #303030; font-family: Trebuchet MS; padding-left: 10px; padding-right: 20px; height: 20px;}
+.td_13				{padding-left: 5px; padding-right: 5px;}
+.td_14				{font-size: 10pt; color: #303030; font-family: Trebuchet MS; padding-left: 10px; padding-right: 20px; height: 45px; font-weight:bold; vertical-align:bottom; padding-bottom: 5px;}
+.td_15				{text-align: right; padding-right: 5px; vertical-align:bottom; padding-bottom: 5px;}
+.td_16				{padding-bottom: 15px; padding-top: 8px; vertical-align:top;}
+.td_17				{font-size: 8pt; color: #808080; font-family: Trebuchet MS; padding-left: 10px; padding-bottom: 5px; padding-top: 5px; vertical-align:top;}
+
+
+.zagolovok			{font-size: 19pt; color: #303030; font-family: Trebuchet MS; padding-bottom: 10px;}
+.zagolovok a		{font-size: 19pt; color: #303030; font-family: Trebuchet MS; padding-bottom: 10px;}
+.zagolovok a:hover	{text-decoration: none;}
+.zagolovok2			{font-size: 13pt; color: #303030; font-family: Trebuchet MS; padding-bottom: 10px;}
+
+.field				{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/bg_input.png'); width: 275px; height: 25px; border: 0px; background-repeat: no-repeat; padding-left: 5px; font-size: 10pt; color: #303030; font-family: Verdana;}
+.field1				{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/bg_input_short.png'); width: 175px; height: 25px; border: 0px; background-repeat: no-repeat; padding-left: 5px; font-size: 10pt; color: #303030; font-family: Verdana;}
+.field2				{background-image:url('/mss0fovnwli9zqf1xpbua/templates/files/bg_input_short1.png'); width: 105px; height: 25px; border: 0px; background-repeat: no-repeat; padding-left: 5px; font-size: 10pt; color: #303030; font-family: Verdana;}
+
+.counter			{font-size: 8pt; color: #92b2dd; font-family: Verdana;}
+.small				{font-size: 7pt;}
