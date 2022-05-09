@@ -34,10 +34,11 @@ RewriteBase /
 #RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 #RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
-RewriteEngine on
-RewriteCond %{HTTP:HTTPS} !=on [NC]
-RewriteRule ^(.*)$ https://frezerni.ru/$1 [R=301,L]
-SetEnvIf X-Forwarded-Proto https HTTPS=on
+# TODO: RETURN THIS BACK BEFORE DEPLOY
+#RewriteEngine on
+#RewriteCond %{HTTP:HTTPS} !=on [NC]
+#RewriteRule ^(.*)$ https://frezerni.ru/$1 [R=301,L]
+#SetEnvIf X-Forwarded-Proto https HTTPS=on
 
 #RewriteEngine on
 #RewriteCond %{HTTP_HOST} ^www\.
@@ -49,6 +50,6 @@ RewriteRule .* - [F,L]
 
 RewriteRule ^sitemap.xml[/]?$ sitemap.php
 
-RewriteRule ^mss0fovnwli9zqf1xpbua[/]?$ https://frezerni.ru/mss0fovnwli9zqf1xpbua/index.php
+RewriteRule ^mss0fovnwli9zqf1xpbua[/]?$ http://frezerni.ru/mss0fovnwli9zqf1xpbua/index.php
 
 RewriteRule ^([-_a-zA-Z0-9/]+)[/]?$ index.php?cpu=$1
