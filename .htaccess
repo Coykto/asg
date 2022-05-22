@@ -50,6 +50,6 @@ RewriteRule .* - [F,L]
 
 RewriteRule ^sitemap.xml[/]?$ sitemap.php
 
-RewriteRule ^mss0fovnwli9zqf1xpbua[/]?$ http://frezerni.ru/mss0fovnwli9zqf1xpbua/index.php
+RewriteRule ^mss0fovnwli9zqf1xpbua[/]?$ http://localhost/mss0fovnwli9zqf1xpbua/index.php
 
 RewriteRule ^([-_a-zA-Z0-9/]+)[/]?$ index.php?cpu=$1

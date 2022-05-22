@@ -1,7 +1,7 @@
 <!-- BEGIN block_center -->
   <main class="main-page">
 <!-- BEGIN hero -->
-    <section class="section-hero section-hero--home">
+    <section class="section-hero section-hero--service">
       <div class="section-hero__banner">
         <div class="section-hero__bg uk-visible@s" style="background-image: url(/templates/images/tree/{BANNER})"></div>
 		<div class="section-hero__bg uk-hidden@s" style="background-image: url(/templates/images/tree/{BANNER_MOBILE})"></div>
@@ -9,9 +9,9 @@
           <div class="uk-grid" data-uk-grid>
             <div class="uk-width-1-2@m uk-width-2-3">
               <div class="section-hero__content">
-				<h1 class="section-hero__title">{H1}</h1>
-                <p class="section-hero__subtitle">{BANNER_TEXT}</p>
-                {SBANNER_TEXT}
+				<h1 class="section-hero__title"><span>{H1}</span></h1>
+                  <p class="section-hero__subtitle"><span>{BANNER_TEXT}</span></p>
+                  <span>{SBANNER_TEXT}</span>
               </div>
             </div>
             <div class="uk-visible@m"></div>

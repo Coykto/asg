@@ -1,7 +1,7 @@
 <!-- BEGIN block_center -->
   <main class="main-page">
 <!-- BEGIN hero -->
-    <section class="section-hero section-hero--home">
+    <section class="section-hero section-hero--service">
       <div class="section-hero__banner section-hero__banner_h">
         <div class="uk-section-small uk-container uk-container-large" style="padding-top: 20px;">
           <div class="uk-grid uk-flex-middle" data-uk-grid>

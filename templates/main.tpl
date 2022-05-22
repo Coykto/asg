@@ -19,7 +19,7 @@
       <div class="uk-container uk-container-xlarge">
         <div class="header-page__inner">
           <div class="header-page__left">
-            <div class="header-page__logo logo"><a class="logo__link" href="{HOST}"><img class="logo__img" src="/assets/images/logo.png" alt="рекламное производство"><span class="logo__text">рекламное производство</span></a></div>
+            <div class="header-page__logo logo"><a class="logo__link" href="{HOST}"><img class="logo__img" src="/assets/images/logo.png" alt="manufacturing automation"><span class="logo__text">manufacturing automation</span></a></div>
 			<div class="header-page__nav">
 <!-- BEGIN menu1 --><!-- END menu1 -->
 			</div>
@@ -42,7 +42,7 @@
     <div id="offcanvas" uk-offcanvas="overlay: true">
       <div class="uk-offcanvas-bar"><button class="uk-offcanvas-close" type="button" uk-close=""></button>
         <div class="uk-margin">
-          <div class="logo"><a class="logo__link" href="/"><img class="logo__img" src="/assets/images/logo.png" alt="рекламное производство"><span class="logo__text">рекламное производство</span></a></div>
+          <div class="logo"><a class="logo__link" href="/"><img class="logo__img" src="/assets/images/logo.png" alt="manufacturing automation"><span class="logo__text">manufacturing automation</span></a></div>
         </div>
         <hr>
 <!-- BEGIN menu2 --><!-- END menu2 -->
@@ -95,12 +95,13 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/71579263" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+<!-- Форма обратной связи
 <script>
         (function(w,d,u){
                 var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://cdn-ru.bitrix24.ru/b16028672/crm/site_button/loader_5_f30dhh.js');
-</script>
+</script>-->
 
 </body>
 

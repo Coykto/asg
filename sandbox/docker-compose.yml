@@ -1,0 +1,22 @@
+services:
+  apache:
+    build: .
+    ports:
+      - 80:80
+    environment:
+      - DB_DOCKER_HOST=db
+    volumes:
+      - ../:/var/www/app/
+
+  db:
+    image: mysql:5.6.43
+    ports:
+      - 3307:3306
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_DATABASE_FILE=/run/secrets/db
+      - MYSQL_USER_FILE=/run/secrets/db
+      - MYSQL_PASSWORD_FILE=/run/secrets/pwd
+    volumes:
+      - ./db_init:/docker-entrypoint-initdb.d
+      - ./secrets:/run/secrets/
