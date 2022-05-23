@@ -14,9 +14,9 @@ services:
       - 3307:3306
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-      - MYSQL_DATABASE_FILE=/run/secrets/db
-      - MYSQL_USER_FILE=/run/secrets/db
-      - MYSQL_PASSWORD_FILE=/run/secrets/pwd
+      - MYSQL_DATABASE_FILE=/run/secrets/db.txt
+      - MYSQL_USER_FILE=/run/secrets/db.txt
+      - MYSQL_PASSWORD_FILE=/run/secrets/pwd.txt
     volumes:
       - ./db_init:/docker-entrypoint-initdb.d
       - ./secrets:/run/secrets/
