@@ -1,13 +1,4 @@
 services:
-  apache:
-    build: .
-    ports:
-      - 80:80
-    environment:
-      - DB_DOCKER_HOST=db
-    volumes:
-      - ../:/var/www/app/
-
   db:
     image: mysql:5.6.43
     ports:
@@ -20,3 +11,15 @@ services:
     volumes:
       - ./db_init:/docker-entrypoint-initdb.d
       - ./secrets:/run/secrets/
+
+  apache:
+    build: .
+    ports:
+      - 80:80
+    environment:
+      DB_DOCKER_HOST: db
+      DB_DOCKER_SCHEMA: http
+    volumes:
+      - ../:/var/www/app/
+    depends_on:
+      - db

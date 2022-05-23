@@ -1,5 +1,7 @@
 <?
-	define ("HOST",'https://'.$_SERVER["HTTP_HOST"].'/');
+
+    $http_schema = getenv("DB_DOCKER_SCHEMA") ?: "https";
+	define ("HOST", $http_schema.'://'.$_SERVER["HTTP_HOST"].'/');
 	define ("HOSTM",'https://industry-company.ru');
 
 	define ("TREE_ROOT_NODE_ID",0);
